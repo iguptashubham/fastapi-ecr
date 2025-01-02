@@ -16,4 +16,4 @@ def get_answer(chat:response):
             'answer':answer}
     
 if __name__ == "__main__":
-    uvicorn.run(app,port=8001)
+    uvicorn.run(app,port=8080)
